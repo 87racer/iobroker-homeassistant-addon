@@ -1,0 +1,1 @@
+FROM iobroker/iobroker:latest
