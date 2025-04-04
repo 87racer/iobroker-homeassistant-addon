@@ -1,6 +1,6 @@
 {
   "name": "ioBroker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "iobroker",
   "description": "Run ioBroker using the official Docker image as a Home Assistant Add-on.",
   "startup": "application",
@@ -12,5 +12,5 @@
   "hassio_api": false,
   "hassio_role": "default",
   "arch": ["aarch64", "armv7", "amd64"],
-  "image": "iobroker/iobroker:latest"
+  "image": "docker.io/iobroker/iobroker:latest"
 }
