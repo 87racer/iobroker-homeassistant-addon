@@ -12,5 +12,5 @@
   "hassio_api": false,
   "hassio_role": "default",
   "arch": ["aarch64", "armv7", "amd64"],
-  "image": "iobroker/iobroker:latest"
+  "image": "library/iobroker:latest"
 }
