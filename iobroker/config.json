@@ -11,7 +11,7 @@
   "init": false,
   "map": [
       { "type": "addon_config", "read_only": false, "path": "/opt/iobroker"},
-      { "type": "ssl", "read_only": true, "path": "/opt/iobroker/ssl"}
+      { "type": "ssl", "read_only": true, "path": "/etc/ssl"}
     ],
   "hassio_api": false,
   "hassio_role": "default",
