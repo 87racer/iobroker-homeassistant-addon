@@ -14,9 +14,9 @@
   "ingress": true,
   "ingress_entry": "iobroker",
   "ports": {
-    "7878/tcp": 7878
+    "8081/tcp": 8081
   },
   "ports_description": {
-    "7878/tcp": "Web interface"
+    "8081/tcp": "Web interface"
   }
 }
