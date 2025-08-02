@@ -8,7 +8,7 @@ Run [ioBroker](https://www.iobroker.net/) inside Home Assistant using the offici
 - Host networking for full integration
 - No need to build a custom image
 - Starts with Home Assistant OS
-- UI available on port `8081`
+- UI available on port `8085`
 
 ## Installation
 
