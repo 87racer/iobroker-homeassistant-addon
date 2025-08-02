@@ -12,6 +12,7 @@
   "hassio_role": "default",
   "arch": ["aarch64", "armv7", "amd64"],
   "ingress": true,
+  "ingress_port": 8081,
   "ports": {
     "8081/tcp": 8081
   },
