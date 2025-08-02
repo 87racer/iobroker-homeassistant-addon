@@ -12,7 +12,6 @@
   "hassio_role": "default",
   "arch": ["aarch64", "armv7", "amd64"],
   "ingress": true,
-  "ingress_entry": "iobroker",
   "ports": {
     "8081/tcp": 8081
   },
