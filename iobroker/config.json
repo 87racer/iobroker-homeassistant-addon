@@ -1,6 +1,6 @@
 {
   "name": "ioBroker",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "slug": "iobroker",
   "description": "Run ioBroker using the official Docker image as a Home Assistant Add-on.",
   "startup": "application",
@@ -9,6 +9,10 @@
   "webui": "http://[HOST]:[PORT:8085]",
   "privileged": ["NET_ADMIN", "SYS_ADMIN"],
   "init": false,
+  "map": [
+      { "type": "addon_config", "read_only": false, "path": "/opt/iobroker"},
+      { "type": "ssl", "read_only": true}
+    ],
   "hassio_api": false,
   "hassio_role": "default",
   "arch": ["aarch64", "armv7", "amd64"],
